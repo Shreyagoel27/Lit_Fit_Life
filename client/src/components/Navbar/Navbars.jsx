@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import SearchIcon from "@material-ui/icons/Search";
+// import SearchIcon from "@material-ui/icons/Search";
 import Button from "@material-ui/core/Button";
 import MenuIcon from '@material-ui/icons/Menu';
 import "./Header.css";
 import { LinkContainer } from "react-router-bootstrap";
+
 const Navbars = () => {
   const [Active, setActive] = useState(false);
   const [show, setShow] = useState(false);
@@ -11,7 +12,7 @@ const Navbars = () => {
   const onSearch = () => {
     setActive(!Active);
   };
-  // <div className={`searchBox ${Active ? "inputb" : ""}`}></div>
+  
   const navShow = () => {
     setShow(!show);
   };
@@ -52,12 +53,12 @@ const Navbars = () => {
            
          </ul>  
 
-        <div className={`searchBox ${Active ? "inputb" : ""}`}>
+        {/* <div className={`searchBox ${Active ? "inputb" : ""}`}>
           <i className="searchIcon" onClick={onSearch}>
             <SearchIcon />
           </i>
           <input type="text" placeholder="Search Google or type URL" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
