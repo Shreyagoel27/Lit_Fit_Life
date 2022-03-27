@@ -9,7 +9,7 @@ function Footer() {
       <div className="container-fluid feature py-5" align="left">
         <div className="row">
           <div className="col-sm-3 footer-logo-box">
-            <h1>7FIT</h1>
+            <h1>LIT_FIT_LIFE</h1>
           </div>
           <div className="col-sm-3">
             <ul>
@@ -57,7 +57,7 @@ function Footer() {
   </div>
 
   <div className="col-sm-6 footer-copyright-text2">
-      <i className="fa fa-pencil fa-1x fa-inverse" aria-hidden="true"></i> Powered by: <a href="https://www.tensketch.com/" target="_new">7Fit</a>.
+      <i className="fa fa-pencil fa-1x fa-inverse" aria-hidden="true"></i> Powered by: <a href="https://www.tensketch.com/" target="_new">LIT_FIT_LIFE</a>.
   </div>
 
 </div>

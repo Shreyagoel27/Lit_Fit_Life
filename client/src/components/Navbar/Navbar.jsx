@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="Navbar">
       <div className="containers">
         <LinkContainer to='/'>
-        <h1>7FIT</h1>
+        <h1>LIT_FIT_LIFE</h1>
         </LinkContainer>
         <Button onClick={() => loginWithRedirect()} className="logs" color="default">
         <PersonIcon />
